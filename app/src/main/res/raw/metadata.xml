@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Application description="Unvired Hello World Sample" name="UNVIRED_HELLO_WORLD" namespace="UNVIRED" package="com.unvired.sample" version="1.0">
+<BusinessEntity description="" name="SAMPLE_SETTINGS">
+<header className="com.unvired.sample.be.SAMPLE_SETTINGS_HEADER" description="Settings table" name="SAMPLE_SETTINGS_HEADER">
+<Field description="Key name" isGid="false" length="100" mandatory="true" name="KEY_NAME" sqlType="TEXT"/>
+<Field description="Key value" isGid="false" length="100" mandatory="false" name="KEY_VALUE" sqlType="TEXT"/>
+</header>
+</BusinessEntity>
+</Application>
